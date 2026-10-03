@@ -62,8 +62,6 @@ map/
 │   └── tests.py
 ├── manage.py
 ├── requirements.txt
-├── Dockerfile
-└── docker-compose.yml
 ```
 
 ## API
@@ -244,20 +242,6 @@ http://127.0.0.1:8000/
 
 ```bash
 python manage.py test
-```
-
-## Docker
-
-Build and start the services:
-
-```bash
-docker compose up --build
-```
-
-Run in the background:
-
-```bash
-docker compose up --build -d
 ```
 
 ## Example cURL Request
